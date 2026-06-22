@@ -1,0 +1,56 @@
+{
+  "Nav": {
+    "features": "Features",
+    "pricing": "Pricing",
+    "faq": "FAQ",
+    "login": "Sign In",
+    "register": "Start Free",
+    "dashboard": "Dashboard"
+  },
+  "Home": {
+    "badge": "PERSONAL FINANCE APP",
+    "title": "Track Expenses, Manage Money in One Place",
+    "highlight": "One Place",
+    "description": "Rupika helps you track income, expenses, wallets, budgets, and personal finance reports in a clean and organized way.",
+    "primaryButton": "Start Free",
+    "secondaryButton": "Sign In",
+    "previewTitle": "Welcome to Rupika",
+    "previewSubtitle": "Monitor your financial activity without the chaos.",
+    "income": "Income",
+    "expense": "Expense",
+    "balance": "Balance",
+    "budget": "Monthly Budget",
+    "featuresTitle": "Features That Make Money Tracking Less Painful",
+    "feature1Title": "Track Transactions",
+    "feature1Desc": "Record daily income and expenses with clean categories.",
+    "feature2Title": "Manage Wallets",
+    "feature2Desc": "Separate cash, bank, and e-wallet balances in one dashboard.",
+    "feature3Title": "Monthly Reports",
+    "feature3Desc": "View spending summaries, top categories, and export reports."
+  },
+  "Auth": {
+    "loginTitle": "Sign in to Rupika",
+    "loginDescription": "Manage your income, expenses, wallets, and budgets in one place.",
+    "registerTitle": "Create Rupika Account",
+    "registerDescription": "Start tracking your personal finance in a cleaner way.",
+    "name": "Name",
+    "username": "Username",
+    "email": "Email",
+    "identifier": "Username or Email",
+    "password": "Password",
+    "login": "Sign In",
+    "register": "Register",
+    "dontHaveAccount": "Don't have an account?",
+    "alreadyHaveAccount": "Already have an account?",
+    "createAccount": "Create account",
+    "backToLogin": "Sign in here"
+  },
+  "Dashboard": {
+    "title": "Dashboard",
+    "welcome": "Welcome",
+    "income": "Income",
+    "expense": "Expense",
+    "balance": "Balance",
+    "todayExpense": "Today Expense"
+  }
+}

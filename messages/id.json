@@ -1,0 +1,56 @@
+{
+  "Nav": {
+    "features": "Fitur",
+    "pricing": "Harga",
+    "faq": "FAQ",
+    "login": "Masuk",
+    "register": "Mulai Gratis",
+    "dashboard": "Dashboard"
+  },
+  "Home": {
+    "badge": "PERSONAL FINANCE APP",
+    "title": "Catat Pengeluaran, Atur Keuangan di Satu Tempat",
+    "highlight": "Satu Tempat",
+    "description": "Rupika membantu kamu mencatat pemasukan, pengeluaran, dompet, budget, dan laporan keuangan pribadi dengan lebih rapi.",
+    "primaryButton": "Mulai Gratis",
+    "secondaryButton": "Masuk",
+    "previewTitle": "Selamat Datang di Rupika",
+    "previewSubtitle": "Pantau kondisi keuangan kamu tanpa ribet.",
+    "income": "Pemasukan",
+    "expense": "Pengeluaran",
+    "balance": "Saldo",
+    "budget": "Budget Bulanan",
+    "featuresTitle": "Fitur yang Bikin Catatan Keuangan Lebih Waras",
+    "feature1Title": "Catat Transaksi",
+    "feature1Desc": "Input pemasukan dan pengeluaran harian dengan kategori yang rapi.",
+    "feature2Title": "Kelola Dompet",
+    "feature2Desc": "Pisahkan saldo cash, bank, dan e-wallet dalam satu dashboard.",
+    "feature3Title": "Laporan Bulanan",
+    "feature3Desc": "Lihat ringkasan pengeluaran, kategori terbesar, dan export laporan."
+  },
+  "Auth": {
+    "loginTitle": "Masuk ke Rupika",
+    "loginDescription": "Kelola pemasukan, pengeluaran, dompet, dan budget kamu dalam satu tempat.",
+    "registerTitle": "Buat Akun Rupika",
+    "registerDescription": "Mulai catat keuangan pribadi kamu dengan lebih rapi.",
+    "name": "Nama",
+    "username": "Username",
+    "email": "Email",
+    "identifier": "Username atau Email",
+    "password": "Password",
+    "login": "Masuk",
+    "register": "Daftar",
+    "dontHaveAccount": "Belum punya akun?",
+    "alreadyHaveAccount": "Sudah punya akun?",
+    "createAccount": "Buat akun",
+    "backToLogin": "Masuk di sini"
+  },
+  "Dashboard": {
+    "title": "Dashboard",
+    "welcome": "Selamat datang",
+    "income": "Pemasukan",
+    "expense": "Pengeluaran",
+    "balance": "Saldo",
+    "todayExpense": "Pengeluaran Hari Ini"
+  }
+}
