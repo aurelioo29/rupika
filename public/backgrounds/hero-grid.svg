@@ -1,0 +1,20 @@
+<svg width="1440" height="900" viewBox="0 0 1440 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1440" height="900" fill="#05070D"/>
+  <g opacity="0.28">
+    <path d="M0 120H1440M0 240H1440M0 360H1440M0 480H1440M0 600H1440M0 720H1440M0 840H1440" stroke="url(#line)" stroke-width="1"/>
+    <path d="M120 0V900M240 0V900M360 0V900M480 0V900M600 0V900M720 0V900M840 0V900M960 0V900M1080 0V900M1200 0V900M1320 0V900" stroke="url(#line)" stroke-width="1"/>
+  </g>
+  <g opacity="0.55">
+    <circle cx="400" cy="260" r="2" fill="#6C5CFF"/>
+    <circle cx="720" cy="360" r="2" fill="#22D39A"/>
+    <circle cx="980" cy="520" r="2" fill="#6C5CFF"/>
+    <circle cx="1180" cy="280" r="2" fill="#22D39A"/>
+  </g>
+  <defs>
+    <linearGradient id="line" x1="0" y1="0" x2="1440" y2="900" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6C5CFF" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#6C5CFF" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#22D39A" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+</svg>

@@ -1,0 +1,21 @@
+{
+  "name": "Rupika",
+  "short_name": "Rupika",
+  "description": "A web-based personal finance application for tracking income, expenses, wallets, budgets, and financial reports.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#05070D",
+  "theme_color": "#6C5CFF",
+  "icons": [
+    {
+      "src": "/favicon/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

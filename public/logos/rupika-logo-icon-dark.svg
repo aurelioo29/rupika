@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" fill="none">
+  <defs>
+    <linearGradient id="rupikaGradient" x1="36" y1="20" x2="226" y2="230" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#6C5CFF"/>
+      <stop offset="0.52" stop-color="#4E8BFF"/>
+      <stop offset="1" stop-color="#22D39A"/>
+    </linearGradient>
+    
+  </defs>
+  
+  <g >
+    <path d="M44 34H174C211.555 34 234 56.445 234 94V220H173L128 166H44C23.565 166 12 154.435 12 134V66C12 45.565 23.565 34 44 34Z" fill="#0B0F1A"/>
+    <rect x="44" y="58" width="134" height="16" rx="8" fill="#F6F7FB" opacity="0.92"/>
+    <path d="M181 104H244V166H181C163.879 166 150 152.121 150 135C150 117.879 163.879 104 181 104Z" fill="#F6F7FB" opacity="0.92"/>
+    <circle cx="197" cy="135" r="11" fill="#0B0F1A" opacity="0.94"/>
+    <rect x="42" y="128" width="16" height="30" rx="3" fill="#F6F7FB" opacity="0.72"/>
+    <rect x="68" y="112" width="16" height="46" rx="3" fill="#F6F7FB" opacity="0.72"/>
+    <rect x="94" y="94" width="16" height="64" rx="3" fill="#F6F7FB" opacity="0.72"/>
+    <path d="M39 115L72 92L94 101L128 68" stroke="#F6F7FB" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" opacity="0.78"/>
+    <path d="M128 68L126 91L147 72L128 68Z" fill="#F6F7FB" opacity="0.78"/>
+  </g>
+</svg>

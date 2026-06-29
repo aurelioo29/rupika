@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" fill="none">
+  <defs>
+    <linearGradient id="rupikaGradient" x1="48" y1="50" x2="230" y2="252" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#6C5CFF"/>
+      <stop offset="0.52" stop-color="#4E8BFF"/>
+      <stop offset="1" stop-color="#22D39A"/>
+    </linearGradient>
+    <filter id="logoGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="9" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 0.423 0 0 0 0 0.361 0 0 0 0 1 0 0 0 0.42 0" result="glow"/>
+      <feMerge><feMergeNode in="glow"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <g transform="translate(36 62) scale(0.92)" filter="url(#logoGlow)">
+    <path d="M44 34H174C211.555 34 234 56.445 234 94V220H173L128 166H44C23.565 166 12 154.435 12 134V66C12 45.565 23.565 34 44 34Z" fill="url(#rupikaGradient)"/>
+    <rect x="44" y="58" width="134" height="16" rx="8" fill="#0B0F1A" opacity="0.92"/>
+    <path d="M181 104H244V166H181C163.879 166 150 152.121 150 135C150 117.879 163.879 104 181 104Z" fill="#0B0F1A" opacity="0.92"/>
+    <circle cx="197" cy="135" r="11" fill="url(#rupikaGradient)" opacity="0.94"/>
+    <rect x="42" y="128" width="16" height="30" rx="3" fill="#0B0F1A" opacity="0.72"/>
+    <rect x="68" y="112" width="16" height="46" rx="3" fill="#0B0F1A" opacity="0.72"/>
+    <rect x="94" y="94" width="16" height="64" rx="3" fill="#0B0F1A" opacity="0.72"/>
+    <path d="M39 115L72 92L94 101L128 68" stroke="#0B0F1A" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" opacity="0.78"/>
+    <path d="M128 68L126 91L147 72L128 68Z" fill="#0B0F1A" opacity="0.78"/>
+  </g>
+  <text x="300" y="177" fill="#FFFFFF" font-family="Poppins, Inter, Arial, sans-serif" font-size="118" font-weight="800" letter-spacing="-5">Rupika</text>
+  <circle cx="604" cy="75" r="12" fill="#22D39A"/>
+  <text x="306" y="238" fill="#8891A7" font-family="Poppins, Inter, Arial, sans-serif" font-size="28" font-weight="500" letter-spacing="6">Track. Understand. <tspan fill="#22D39A">Grow.</tspan></text>
+</svg>
