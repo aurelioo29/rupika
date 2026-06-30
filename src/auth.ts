@@ -1,12 +1,20 @@
 import NextAuth from "next-auth";
 import Credentials from "next-auth/providers/credentials";
 import { compare } from "bcryptjs";
+import { z } from "zod";
 
 import { prisma } from "@/lib/prisma";
 
 const SIX_HOURS = 6 * 60 * 60;
 
+const loginSchema = z.object({
+  identifier: z.string().trim().min(1, "Username atau email wajib diisi"),
+  password: z.string().min(1, "Password wajib diisi"),
+});
+
 export const { handlers, auth, signIn, signOut } = NextAuth({
+  trustHost: true,
+
   session: {
     strategy: "jwt",
     maxAge: SIX_HOURS,
@@ -23,6 +31,7 @@ export const { handlers, auth, signIn, signOut } = NextAuth({
   providers: [
     Credentials({
       name: "Credentials",
+
       credentials: {
         identifier: {
           label: "Username or Email",
@@ -35,15 +44,14 @@ export const { handlers, auth, signIn, signOut } = NextAuth({
       },
 
       async authorize(credentials) {
-        const identifier = String(credentials?.identifier ?? "")
-          .trim()
-          .toLowerCase();
+        const parsed = loginSchema.safeParse(credentials);
 
-        const password = String(credentials?.password ?? "");
-
-        if (!identifier || !password) {
+        if (!parsed.success) {
           return null;
         }
+
+        const identifier = parsed.data.identifier.toLowerCase();
+        const password = parsed.data.password;
 
         const user = await prisma.user.findFirst({
           where: {
@@ -56,15 +64,24 @@ export const { handlers, auth, signIn, signOut } = NextAuth({
               },
             ],
           },
+          select: {
+            id: true,
+            name: true,
+            username: true,
+            email: true,
+            image: true,
+            password: true,
+            role: true,
+          },
         });
 
         if (!user || !user.password) {
           return null;
         }
 
-        const isValidPassword = await compare(password, user.password);
+        const isPasswordValid = await compare(password, user.password);
 
-        if (!isValidPassword) {
+        if (!isPasswordValid) {
           return null;
         }
 
